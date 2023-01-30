@@ -15,21 +15,21 @@ Requirements
     //Link to your JavaScript file
     //Link to your CSS file
 
-JS file
+//JS file
     //Create a function named idCard
         Everything below will be located within this function
     //Create three variables named firstName, lastName, and address. Set those variables equal to the DOM element they correspond with so it pulls in the value of each input.
     //Use the DOM innerHTML to post the first and last name to the tag that has an id of postFullName
-    Use the DOM innerHTML to post the address to the tag that has an id of postAddress
+    //Use the DOM innerHTML to post the address to the tag that has an id of postAddress
         Tip! These id's were already included in your html page within the ID card div tag.
-    Create two variables named age and phoneNumber that pulls in the value of the corresponding input using DOM
+    //Create two variables named age and phoneNumber that pulls in the value of the corresponding input using DOM
         Tip! Remember what you need to include when pulling in a number using DOM.
-    Create an empty array named numberArray
-    Push both the age and phoneNumber variables into your empty array
-    Create a for loop that will loop through numberArray
-    Write an if/elseif statement within the for loop
-    Check to see if the numberArray at index i is less than or equal to 100. If it is, use DOM innerHTML to write "Age: " plus the variable age.
-    Check to see if the numberArray at index i is greater than 100. If it is, use DOM innerHTML to write "Phone Number: " plus the variable phoneNumber
+    //Create an empty array named numberArray
+    //Push both the age and phoneNumber variables into your empty array
+    //Create a for loop that will loop through numberArray
+    //Write an if/elseif statement within the for loop
+    //Check to see if the numberArray at index i is less than or equal to 100. If it is, use DOM innerHTML to write "Age: " plus the variable age.
+    //Check to see if the numberArray at index i is greater than 100. If it is, use DOM innerHTML to write "Phone Number: " plus the variable phoneNumber
 
 CSS file
     Refer to the following picture and make your id page look similar
