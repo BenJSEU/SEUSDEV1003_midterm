@@ -1,22 +1,22 @@
 Requirements
 
-HTML file
-    Create an h1 tag that says "Let's Create an ID card!"
-    Create 5 inputs and labels for:
-        First Name
-        Last Name
-        Age
-        Phone Number
-        Address
-    Give each input an id that corresponds to what the input is for.
-    Add a break tag after each input so they are listed vertically and not horizontally.
-    Add a button that uses onclick to call the function named idCard.
+//HTML file
+    //Create an h1 tag that says "Let's Create an ID card!"
+    //Create 5 inputs and labels for:
+        //First Name
+        //Last Name
+        //Age
+        //Phone Number
+        //Address
+    //Give each input an id that corresponds to what the input is for.
+    //Add a break tag after each input so they are listed vertically and not horizontally.
+    //Add a button that uses onclick to call the function named idCard.
         Tip! You will create this function in the JS file.
-    Link to your JavaScript file
-    Link to your CSS file
+    //Link to your JavaScript file
+    //Link to your CSS file
 
 JS file
-    Create a function named idCard
+    //Create a function named idCard
         Everything below will be located within this function
     Create three variables named firstName, lastName, and address. Set those variables equal to the DOM element they correspond with so it pulls in the value of each input.
     Use the DOM innerHTML to post the first and last name to the tag that has an id of postFullName
