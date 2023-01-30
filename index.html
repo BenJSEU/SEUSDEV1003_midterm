@@ -6,19 +6,22 @@
 
 <title></title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section>
         <h1>Let's Create an ID Card!</h1>
         <form>
-            First Name:<input id = "firstName" type="text"><br>
-            Last Name:<input id = "lastName" type="text"><br>
-            Age:<input id = "age" type="text"><br>
-            Phone Number:<input id = "phoneNumber" type="text"><br>
-            Address:<input id = "address" type="text"><br>
+            First Name:<br><input id = "firstName" type="text"><br>
+            Last Name:<br><input id = "lastName" type="text"><br>
+            Age:<br><input id = "age" type="text"><br>
+            Phone Number:<br><input id = "phoneNumber" type="text"><br>
+            Address:<br><input id = "address" type="text"><br>
         </form>
-        <button onclick="idCard()">Get ID Card!</button>
+        <button onclick="idCard()" style="margin: 10px;">Get ID Card!</button>
     </section>
 
 
@@ -27,12 +30,12 @@
 <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
 
 <p id="postFullName"></p>
+<br>
+<p id="postAge" class="bottomId"></p>
 
-<p id="postAge"></p>
+<p id="postPhoneNumber" class="bottomId"></p>
 
-<p id="postPhoneNumber"></p>
-
-<p id="postAddress"></p>
+<p id="postAddress" class="bottomId"></p>
 
 </div>
 
