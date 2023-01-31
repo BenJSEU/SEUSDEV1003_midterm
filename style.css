@@ -11,6 +11,8 @@ img {
     #idCard {
     
     border: 5px solid black;
+
+    border-radius: 10px;
     
     height: 14em;
     
@@ -24,6 +26,8 @@ img {
 
     margin: auto;
     
+    font-family: 'Open Sans', sans-serif;
+    
     
     }
 
@@ -33,7 +37,7 @@ img {
 
         text-align: center;
 
-        font-family: 'Open Sans', sans-serif;
+        
 
     }
     section {
