@@ -1,0 +1,61 @@
+img {
+
+    width: 90px;
+    
+    height: 90px;
+    
+    float: left;
+    
+    }
+    
+    #idCard {
+    
+    border: 5px solid black;
+
+    border-radius: 10px;
+    
+    height: 14em;
+    
+    width: 25em;
+
+    background-color: aquamarine;
+
+    text-align: left;
+
+    padding: 5px;
+
+    margin: auto;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    }
+
+    body  {
+
+        background-color: coral;
+
+        text-align: center;
+
+        
+
+    }
+    section {
+
+        margin-bottom: 25px;
+    }
+
+    #postFullName {
+
+        text-align: center;
+
+        margin-bottom: -1px;
+
+        margin-top: 20px;
+
+        font-size: 2em;
+
+        font-weight: bold;
+
+    }
+
